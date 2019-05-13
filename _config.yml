@@ -1,0 +1,53 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
+title:            'Charles Fieseler'
+tagline:          ''
+description:      'Graduate Student'
+department:       'Physics'
+school: 	  'University of Washington'
+url:              'https://charles-fieseler.github.io'
+baseurl:          ''
+#baseurl:          '/Charles_Fieseler_website_final'
+                  # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
+
+author:
+  name:           'Charles Fieseler'
+  url:
+
+paginate:         5
+paginate_path:    '/blog/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+# Custom vars
+version:            3.7.1
+sidebar_home_link:  false
+sidebar_blog_link:  false
+#sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
+github:
+  profile: 'https://github.com/Charles-Fieseler'
+
+googlescholarpage: 'https://scholar.google.com/citations?user=hs6J0_EAAAAJ&hl=en'
+
+collections:
+  news:
+    output: false
+  upcoming:
+    output: false
+  publications:
+    output: true
+    permalink: /:collection/:name
