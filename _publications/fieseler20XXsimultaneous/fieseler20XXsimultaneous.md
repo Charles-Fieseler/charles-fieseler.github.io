@@ -12,7 +12,7 @@ publisher: TBD
 issue: TBD
 page: TBD
 research_area: Data-driven discovery
-title: [Work in progress] Simultaneous Learning of Control Signals, Parameters, and Model Structure
+title: (Work in progress) Simultaneous Learning of Control Signals, Parameters, and Model Structure
 type: article-journal
 year: '2019'
 ---

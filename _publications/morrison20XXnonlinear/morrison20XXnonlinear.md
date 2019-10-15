@@ -16,7 +16,7 @@ publisher: TBD
 issue: TBD
 page: TBD
 research_area: Nonlinear Control
-title: [Work in progress] Neuro-sensory integration in the nematode C. elegans as a nonlinear dynamical system with control
+title: (Work in progress) Neuro-sensory integration in the nematode C. elegans as a nonlinear dynamical system with control
 type: article-journal
 year: '2019'
 ---
